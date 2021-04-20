@@ -1,0 +1,37 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = LF
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_size = 2
+max_line_length = 120
+
+[*.{php, html, twig}]
+indent_style = space
+indent_size = 4
+
+[*.php]
+# PhpStorm config
+ij_php_blank_lines_after_class_header = 0
+ij_php_blank_lines_before_class_end = 0
+ij_php_align_assignments = false
+ij_php_align_key_value_pairs = false
+ij_php_method_parameters_wrap = normal
+ij_php_space_before_unary_not = false
+ij_php_space_after_unary_not = false
+ij_php_comma_after_last_array_element = false
+ij_php_align_phpdoc_param_names = true
+
+[*.js]
+ij_javascript_space_before_function_left_parenth = true
+#additional definition in .prettierrc
+
+[*.md]
+max_line_length = 80
+insert_final_newline = false
+trim_trailing_whitespace = false
+
+[COMMIT_EDITMSG]
+max_line_length = 0

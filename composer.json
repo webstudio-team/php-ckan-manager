@@ -1,0 +1,35 @@
+{
+  "name": "webstudio-team/php-ckan-manager",
+  "description": "PHP package with basic operations for managing CKAN datasets.",
+  "keywords": [
+    "opendata",
+    "ckan",
+    "csv",
+    "csvw"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Petr Panoška",
+      "email": "petr.panoska@uzis.cz"
+    }
+  ],
+  "type": "library",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.2",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "WebstudioTeam\\CkanManager\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
