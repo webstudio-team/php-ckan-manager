@@ -137,7 +137,7 @@ class CkanManager
                                      string $licenseUrl, string $source, array $keywords, array $columns)
     {
         $schema = (object)[
-            '@context' => ['https://www.w3.org/ns/csvw', (object)['@language' => 'cs']],
+            '@context' => ['http://www.w3.org/ns/csvw', (object)['@language' => 'cs']],
             'url' => $csvFilename . '.csv',
             'dc:title' => $title,
             'dc:description' => $description,
